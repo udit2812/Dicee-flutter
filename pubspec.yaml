@@ -11,6 +11,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  shake: ^0.1.0
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +23,11 @@ flutter:
 
   assets:
   - images/
+
+  fonts:
+    - family: RobotoMono
+      fonts:
+        - asset: asset/Roboto.ttf
+    - family: Pacifico
+      fonts:
+        - asset: asset/Pacifico-Regular.ttf    
